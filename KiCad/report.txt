@@ -1,0 +1,144 @@
+Info: Reading netlist file "/home/dmitryneuro/git.neuroidss.local/FreeSmartEEG/KiCad/AD7779 for Intel Edison Arduino.net".
+
+Info: Using references to match components and footprints.
+
+Error: No footprint defined for component 'C15'.
+
+Error: No footprint defined for component 'C18'.
+
+Error: No footprint defined for component 'C16'.
+
+Error: No footprint defined for component 'C21'.
+
+Error: No footprint defined for component 'C22'.
+
+Error: No footprint defined for component 'C11'.
+
+Error: No footprint defined for component 'C12'.
+
+Error: No footprint defined for component 'C9'.
+
+Error: No footprint defined for component 'C10'.
+
+Error: No footprint defined for component 'C7'.
+
+Error: No footprint defined for component 'C8'.
+
+Error: No footprint defined for component 'C4'.
+
+Error: No footprint defined for component 'C3'.
+
+Error: No footprint defined for component 'C20'.
+
+Error: No footprint defined for component 'C19'.
+
+Error: No footprint defined for component 'U1'.
+
+Error: No footprint defined for component 'C17'.
+
+Error: No footprint defined for component 'C13'.
+
+Error: No footprint defined for component 'C14'.
+
+Error: No footprint defined for component 'C2'.
+
+Error: No footprint defined for component 'C6'.
+
+Error: No footprint defined for component 'C5'.
+
+Error: No footprint defined for component 'Y1'.
+
+Error: No footprint defined for component 'C1'.
+
+Error: No footprint defined for component 'U4'.
+
+Error: No footprint defined for component 'U2'.
+
+Error: No footprint defined for component 'U3'.
+
+Info: Checking netlist component footprint "C1:/57803D35:".
+
+Info: Checking netlist component footprint "C2:/5780CC6E:".
+
+Info: Checking netlist component footprint "C3:/57810A46:".
+
+Info: Checking netlist component footprint "C4:/578109CD:".
+
+Info: Checking netlist component footprint "C5:/5780C539:".
+
+Info: Checking netlist component footprint "C6:/5780CC33:".
+
+Info: Checking netlist component footprint "C7:/578108CA:".
+
+Info: Checking netlist component footprint "C8:/5781095F:".
+
+Info: Checking netlist component footprint "C9:/57810352:".
+
+Info: Checking netlist component footprint "C10:/578103BF:".
+
+Info: Checking netlist component footprint "C11:/5781025B:".
+
+Info: Checking netlist component footprint "C12:/578102EE:".
+
+Info: Checking netlist component footprint "C13:/5780DDD1:".
+
+Info: Checking netlist component footprint "C14:/5780D089:".
+
+Info: Checking netlist component footprint "C15:/5780FBDF:".
+
+Info: Checking netlist component footprint "C16:/5780FC4A:".
+
+Info: Checking netlist component footprint "C17:/5780DE17:".
+
+Info: Checking netlist component footprint "C18:/5780DE66:".
+
+Info: Checking netlist component footprint "C19:/5780EAA6:".
+
+Info: Checking netlist component footprint "C20:/5780EE3B:".
+
+Info: Checking netlist component footprint "C21:/5780FF65:".
+
+Changing component "C21:" value from "C_0805" to "C".
+
+Info: Changing component path "C21:" to "/5780FF65".
+
+Changing component "C21:/5780FF65" pin "1" net name from "" to "AVDD".
+
+Changing component "C21:/5780FF65" pin "2" net name from "" to "AVSS".
+
+Info: Checking netlist component footprint "C22:/5780FFD0:".
+
+Changing component "C22:" value from "C_0805" to "C".
+
+Info: Changing component path "C22:" to "/5780FFD0".
+
+Changing component "C22:/5780FFD0" pin "1" net name from "" to "AVDD".
+
+Changing component "C22:/5780FFD0" pin "2" net name from "" to "AVSS".
+
+Info: Checking netlist component footprint "P1:/577FE5A9:Pin_Headers:Pin_Header_Straight_1x10".
+
+Info: Checking netlist component footprint "P2:/57801C6A:Pin_Headers:Pin_Header_Straight_2x03".
+
+Info: Checking netlist component footprint "P3:/577FE40C:Pin_Headers:Pin_Header_Straight_1x08".
+
+Info: Checking netlist component footprint "P4:/577FE497:Pin_Headers:Pin_Header_Straight_1x08".
+
+Info: Checking netlist component footprint "P5:/57800D6E:Pin_Headers:Pin_Header_Straight_1x06".
+
+Info: Checking netlist component footprint "P6:/5781FBE7:Pin_Headers:Pin_Header_Straight_1x10".
+
+Info: Checking netlist component footprint "P7:/5781DDD8:Pin_Headers:Pin_Header_Straight_1x10".
+
+Info: Checking netlist component footprint "U1:/577FE1B1:".
+
+Info: Checking netlist component footprint "U2:/577FE273:".
+
+Info: Checking netlist component footprint "U3:/577FE246:".
+
+Info: Checking netlist component footprint "U4:/577FE314:".
+
+Info: Checking netlist component footprint "Y1:/57804CA7:".
+
+Error: Component 'U1' pad '~' not found in footprint 'Housings_DFN_QFN:QFN-64-1EP_9x9mm_Pitch0.5mm'
+

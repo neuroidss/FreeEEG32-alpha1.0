@@ -1,0 +1,920 @@
+EESchema Schematic File Version 2
+LIBS:FreeSmartEEG_AD7770_STM32F405VG_nRF52832_ESP8266-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:stm32f410rbt6
+LIBS:AD7768
+LIBS:esp8266
+LIBS:stm32f103r8t7
+LIBS:nrf52832
+LIBS:AD7779
+LIBS:STM32F405VG
+LIBS:AD7770
+LIBS:LP5907
+LIBS:ADR4525
+LIBS:ADP7118
+LIBS:TPD4E1B06
+LIBS:stm32f427vi
+LIBS:esp-12e
+LIBS:fxo-sm7_osc-smd7050
+LIBS:FreeEEG32-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 8750 5050 3    60   Input ~ 0
+AVSS1B
+Text GLabel 8550 5050 3    60   Input ~ 0
+REF2-
+Text GLabel 10050 1350 1    60   Input ~ 0
+REF1+
+Text GLabel 8450 5050 3    60   Input ~ 0
+REF2+
+Text GLabel 10150 1350 1    60   Input ~ 0
+REF1-
+Text GLabel 10350 1350 1    60   Input ~ 0
+AVSS1A
+Text GLabel 9650 5150 3    60   Input ~ 0
+AVSS3
+Text GLabel 10450 5150 3    60   Input ~ 0
+AVSS4
+Text GLabel 10350 5150 3    60   Input ~ 0
+AVSS2A
+Text GLabel 9350 5150 3    60   Input ~ 0
+AVSS2B
+Text GLabel 8750 1350 1    60   Input ~ 0
+DGND
+Text GLabel 8450 1350 1    60   Input ~ 0
+IOVDD
+Text GLabel 10150 5150 3    60   Input ~ 0
+AVDD2A
+Text GLabel 9550 5150 3    60   Input ~ 0
+AVDD2B
+Text GLabel 10550 5150 3    60   Input ~ 0
+AVDD4
+Text GLabel 9950 4150 3    60   Input ~ 0
+CLK_SEL
+Text GLabel 9850 4150 3    60   Input ~ 0
+FORMAT0
+Text GLabel 9750 4150 3    60   Input ~ 0
+FORMAT1
+Text GLabel 9150 2250 1    60   Input ~ 0
+CONVST_SAR
+Text GLabel 7650 4150 3    60   Input ~ 0
+START
+Text GLabel 7850 2250 1    60   Input ~ 0
+DRDY
+Text GLabel 9050 2250 1    60   Input ~ 0
+CS
+Text GLabel 8950 2250 1    60   Input ~ 0
+SCLK
+Text GLabel 8850 2250 1    60   Input ~ 0
+SDI
+Text GLabel 8750 2250 1    60   Input ~ 0
+SDO
+Text GLabel 8650 5050 3    60   Input ~ 0
+AVDD1B
+Text GLabel 7350 3250 3    60   Input ~ 0
+EPAD
+Text GLabel 10750 2250 1    60   Input ~ 0
+AIN0-
+Text GLabel 10550 2250 1    60   Input ~ 0
+AIN1-
+Text GLabel 10650 2250 1    60   Input ~ 0
+AIN0+
+Text GLabel 9950 2250 1    60   Input ~ 0
+AIN2-
+Text GLabel 9750 2250 1    60   Input ~ 0
+AIN3-
+Text GLabel 10450 2250 1    60   Input ~ 0
+AIN1+
+Text GLabel 9850 2250 1    60   Input ~ 0
+AIN2+
+Text GLabel 9650 2250 1    60   Input ~ 0
+AIN3+
+Text GLabel 9150 4150 3    60   Input ~ 0
+AIN4-
+Text GLabel 9050 4150 3    60   Input ~ 0
+AIN4+
+Text GLabel 8850 4150 3    60   Input ~ 0
+AIN5+
+Text GLabel 8250 4150 3    60   Input ~ 0
+AIN6+
+Text GLabel 8050 4150 3    60   Input ~ 0
+AIN7+
+Text GLabel 8950 4150 3    60   Input ~ 0
+AIN5-
+Text GLabel 8150 4150 3    60   Input ~ 0
+AIN7-
+Text GLabel 8350 4150 3    60   Input ~ 0
+AIN6-
+Text GLabel 10250 1350 1    60   Input ~ 0
+AVDD1A
+Text GLabel 10650 4150 3    60   Input ~ 0
+AUXAIN+
+Text GLabel 10750 4150 3    60   Input ~ 0
+AUXAIN-
+Text GLabel 7950 2250 1    60   Input ~ 0
+DCLK
+Text GLabel 8050 2250 1    60   Input ~ 0
+DOUT0
+Text GLabel 8150 2250 1    60   Input ~ 0
+DOUT1
+Text GLabel 8250 2250 1    60   Input ~ 0
+DOUT2
+Text GLabel 8350 2250 1    60   Input ~ 0
+DOUT3
+Text GLabel 7950 4150 3    60   Input ~ 0
+RESET_ADC
+Text GLabel 7750 4150 3    60   Input ~ 0
+SYNC_OUT
+Text GLabel 7850 4150 3    60   Input ~ 0
+SYNC_IN
+Text GLabel 9250 5150 3    60   Input ~ 0
+REF_OUT
+Text GLabel 10050 4150 3    60   Input ~ 0
+VCM
+Text GLabel 7750 1550 1    60   Input ~ 0
+XTAL1
+Text GLabel 7650 1550 1    60   Input ~ 0
+XTAL2
+Text GLabel 9250 2250 1    60   Input ~ 0
+ALERT
+Text GLabel 9350 2250 1    60   Input ~ 0
+GPIO2
+Text GLabel 9450 2250 1    60   Input ~ 0
+GPIO1
+Text GLabel 9550 2250 1    60   Input ~ 0
+GPIO0
+$Comp
+L Crystal_Small Y?
+U 1 1 587EE4BC
+P 7700 1750
+F 0 "Y?" H 7700 1850 50  0000 C CNN
+F 1 "8.192MHz" H 7700 1650 50  0000 C CNN
+F 2 "FreeSmartEEG:SMD0503_4P_Crystal" H 7700 1750 50  0001 C CNN
+F 3 "" H 7700 1750 50  0000 C CNN
+	1    7700 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 587EE4C3
+P 8350 1550
+F 0 "C?" H 8360 1620 50  0000 L CNN
+F 1 "1u" H 8360 1470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8350 1550 50  0001 C CNN
+F 3 "" H 8350 1550 50  0000 C CNN
+	1    8350 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 587EE4CA
+P 8350 1800
+F 0 "C?" H 8360 1870 50  0000 L CNN
+F 1 "100n" H 8360 1720 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8350 1800 50  0001 C CNN
+F 3 "" H 8350 1800 50  0000 C CNN
+	1    8350 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 587EE4D1
+P 8650 1800
+F 0 "C?" H 8660 1870 50  0000 L CNN
+F 1 "100n" H 8660 1720 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8650 1800 50  0001 C CNN
+F 3 "" H 8650 1800 50  0000 C CNN
+	1    8650 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 587EE4D8
+P 8650 1550
+F 0 "C?" H 8660 1620 50  0000 L CNN
+F 1 "1u" H 8660 1470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8650 1550 50  0001 C CNN
+F 3 "" H 8650 1550 50  0000 C CNN
+	1    8650 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 587EE4DF
+P 10050 1800
+F 0 "C?" H 10060 1870 50  0000 L CNN
+F 1 "100n" H 10060 1720 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 10050 1800 50  0001 C CNN
+F 3 "" H 10050 1800 50  0000 C CNN
+	1    10050 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 587EE4E6
+P 10050 1550
+F 0 "C?" H 10060 1620 50  0000 L CNN
+F 1 "1u" H 10060 1470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 10050 1550 50  0001 C CNN
+F 3 "" H 10050 1550 50  0000 C CNN
+	1    10050 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 587EE4ED
+P 10350 1800
+F 0 "C?" H 10360 1870 50  0000 L CNN
+F 1 "100n" H 10360 1720 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 10350 1800 50  0001 C CNN
+F 3 "" H 10350 1800 50  0000 C CNN
+	1    10350 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 587EE4F4
+P 10350 1550
+F 0 "C?" H 10360 1620 50  0000 L CNN
+F 1 "1u" H 10360 1470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 10350 1550 50  0001 C CNN
+F 3 "" H 10350 1550 50  0000 C CNN
+	1    10350 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 587EE4FB
+P 8750 4600
+F 0 "C?" H 8760 4670 50  0000 L CNN
+F 1 "100n" H 8760 4520 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8750 4600 50  0001 C CNN
+F 3 "" H 8750 4600 50  0000 C CNN
+	1    8750 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 587EE502
+P 8750 4850
+F 0 "C?" H 8760 4920 50  0000 L CNN
+F 1 "1u" H 8760 4770 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8750 4850 50  0001 C CNN
+F 3 "" H 8750 4850 50  0000 C CNN
+	1    8750 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 587EE509
+P 8450 4850
+F 0 "C?" H 8460 4920 50  0000 L CNN
+F 1 "1u" H 8460 4770 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8450 4850 50  0001 C CNN
+F 3 "" H 8450 4850 50  0000 C CNN
+	1    8450 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 587EE510
+P 8450 4600
+F 0 "C?" H 8460 4670 50  0000 L CNN
+F 1 "100n" H 8460 4520 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8450 4600 50  0001 C CNN
+F 3 "" H 8450 4600 50  0000 C CNN
+	1    8450 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 587EE517
+P 9250 4950
+F 0 "C?" H 9260 5020 50  0000 L CNN
+F 1 "100n" H 9260 4870 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 9250 4950 50  0001 C CNN
+F 3 "" H 9250 4950 50  0000 C CNN
+	1    9250 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 587EE51E
+P 9350 4650
+F 0 "C?" H 9360 4720 50  0000 L CNN
+F 1 "100n" H 9360 4570 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 9350 4650 50  0001 C CNN
+F 3 "" H 9350 4650 50  0000 C CNN
+	1    9350 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 587EE525
+P 9650 4700
+F 0 "C?" H 9660 4770 50  0000 L CNN
+F 1 "100n" H 9660 4620 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 9650 4700 50  0001 C CNN
+F 3 "" H 9650 4700 50  0000 C CNN
+	1    9650 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 587EE52C
+P 9950 4700
+F 0 "C?" H 9960 4770 50  0000 L CNN
+F 1 "100n" H 9960 4620 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 9950 4700 50  0001 C CNN
+F 3 "" H 9950 4700 50  0000 C CNN
+	1    9950 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 587EE533
+P 10250 4750
+F 0 "C?" H 10260 4820 50  0000 L CNN
+F 1 "100n" H 10260 4670 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 10250 4750 50  0001 C CNN
+F 3 "" H 10250 4750 50  0000 C CNN
+	1    10250 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 587EE53A
+P 10550 4700
+F 0 "C?" H 10560 4770 50  0000 L CNN
+F 1 "100n" H 10560 4620 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 10550 4700 50  0001 C CNN
+F 3 "" H 10550 4700 50  0000 C CNN
+	1    10550 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 587EE541
+P 9650 4950
+F 0 "C?" H 9660 5020 50  0000 L CNN
+F 1 "1u" H 9660 4870 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 9650 4950 50  0001 C CNN
+F 3 "" H 9650 4950 50  0000 C CNN
+	1    9650 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 587EE548
+P 9950 4950
+F 0 "C?" H 9960 5020 50  0000 L CNN
+F 1 "1u" H 9960 4870 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 9950 4950 50  0001 C CNN
+F 3 "" H 9950 4950 50  0000 C CNN
+	1    9950 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 587EE54F
+P 10550 4950
+F 0 "C?" H 10560 5020 50  0000 L CNN
+F 1 "1u" H 10560 4870 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 10550 4950 50  0001 C CNN
+F 3 "" H 10550 4950 50  0000 C CNN
+	1    10550 4950
+	0    1    1    0   
+$EndComp
+Connection ~ 10150 1550
+Connection ~ 10150 1800
+Connection ~ 9950 1800
+Connection ~ 9950 1550
+Connection ~ 10250 1550
+Connection ~ 10250 1800
+Connection ~ 10450 1800
+Connection ~ 10450 1550
+Connection ~ 8750 1550
+Connection ~ 8250 1550
+Connection ~ 8250 1800
+Connection ~ 8550 1800
+Connection ~ 8450 1550
+Connection ~ 9850 4700
+Connection ~ 9850 4950
+Connection ~ 10350 4750
+Connection ~ 10050 4950
+Connection ~ 10450 4700
+Connection ~ 10450 4950
+Connection ~ 10650 4950
+Connection ~ 10650 4700
+Connection ~ 9350 4950
+Connection ~ 9550 4700
+Connection ~ 9550 4950
+Connection ~ 9750 4950
+Connection ~ 9750 4700
+Connection ~ 8350 4600
+Connection ~ 8350 4850
+Connection ~ 8550 4850
+Connection ~ 8550 4600
+Connection ~ 8650 4850
+Connection ~ 8650 4600
+Connection ~ 8850 4600
+Connection ~ 8850 4850
+Wire Wire Line
+	8650 1850 8650 2300
+Wire Wire Line
+	8450 1850 8450 2300
+Wire Wire Line
+	8250 1850 8450 1850
+Wire Wire Line
+	7650 2300 7650 1900
+Wire Wire Line
+	7650 1900 7600 1900
+Wire Wire Line
+	7600 1900 7600 1600
+Wire Wire Line
+	7750 2300 7750 1900
+Wire Wire Line
+	7750 1900 7800 1900
+Wire Wire Line
+	7800 1900 7800 1600
+Wire Wire Line
+	10050 1850 10050 2300
+Wire Wire Line
+	9950 1850 10050 1850
+Wire Wire Line
+	10150 1350 10150 2300
+Wire Wire Line
+	10250 1350 10250 2300
+Wire Wire Line
+	10350 1850 10350 2300
+Wire Wire Line
+	10450 1850 10350 1850
+Wire Wire Line
+	8550 1550 8550 2300
+Wire Wire Line
+	8750 1350 8750 1850
+Wire Wire Line
+	8250 1400 8250 1850
+Wire Wire Line
+	8250 1400 8450 1400
+Wire Wire Line
+	8450 1400 8450 1350
+Wire Wire Line
+	8450 1450 8450 1800
+Connection ~ 8750 1400
+Wire Wire Line
+	9950 1400 9950 1850
+Wire Wire Line
+	9950 1400 10050 1400
+Wire Wire Line
+	10050 1400 10050 1350
+Wire Wire Line
+	10450 1400 10450 1850
+Wire Wire Line
+	10450 1400 10350 1400
+Wire Wire Line
+	10350 1400 10350 1350
+Wire Wire Line
+	10550 5150 10550 5100
+Wire Wire Line
+	10550 5100 10650 5100
+Wire Wire Line
+	10650 5100 10650 4650
+Wire Wire Line
+	10650 4650 10550 4650
+Wire Wire Line
+	10550 4650 10550 4100
+Wire Wire Line
+	10450 4100 10450 5150
+Wire Wire Line
+	10350 4100 10350 5150
+Wire Wire Line
+	10050 4950 10350 4950
+Wire Wire Line
+	9850 4650 9850 5100
+Wire Wire Line
+	9850 5100 10150 5100
+Wire Wire Line
+	10150 5100 10150 5150
+Wire Wire Line
+	10050 4700 10050 4950
+Connection ~ 10350 4950
+Wire Wire Line
+	9450 4100 9450 4650
+Wire Wire Line
+	9350 4900 9350 5150
+Wire Wire Line
+	9550 4100 9550 5150
+Wire Wire Line
+	9650 4100 9650 4650
+Wire Wire Line
+	9650 4650 9750 4650
+Wire Wire Line
+	9750 4650 9750 5100
+Wire Wire Line
+	9750 5100 9650 5100
+Wire Wire Line
+	9650 5100 9650 5150
+Wire Wire Line
+	8750 4100 8750 4550
+Wire Wire Line
+	8750 4550 8850 4550
+Wire Wire Line
+	8850 4550 8850 5000
+Wire Wire Line
+	8850 5000 8750 5000
+Wire Wire Line
+	8750 5000 8750 5050
+Wire Wire Line
+	8650 4100 8650 5050
+Wire Wire Line
+	8550 4100 8550 5050
+Wire Wire Line
+	8450 5050 8450 5000
+Wire Wire Line
+	8450 5000 8350 5000
+Wire Wire Line
+	8350 5000 8350 4550
+Wire Wire Line
+	8350 4550 8450 4550
+Wire Wire Line
+	8450 4550 8450 4100
+Wire Wire Line
+	9950 4150 9950 4100
+Wire Wire Line
+	9850 4150 9850 4100
+Wire Wire Line
+	9750 4150 9750 4100
+Wire Wire Line
+	9150 4150 9150 4100
+Wire Wire Line
+	9050 4150 9050 4100
+Wire Wire Line
+	8950 4150 8950 4100
+Wire Wire Line
+	8850 4150 8850 4100
+Wire Wire Line
+	8350 4150 8350 4100
+Wire Wire Line
+	8250 4100 8250 4150
+Wire Wire Line
+	8150 4150 8150 4100
+Wire Wire Line
+	8050 4150 8050 4100
+Wire Wire Line
+	7950 4150 7950 4100
+Wire Wire Line
+	7650 4150 7650 4100
+Wire Wire Line
+	7850 2250 7850 2300
+Wire Wire Line
+	8750 2250 8750 2300
+Wire Wire Line
+	8850 2250 8850 2300
+Wire Wire Line
+	8950 2250 8950 2300
+Wire Wire Line
+	9050 2250 9050 2300
+Wire Wire Line
+	9150 2250 9150 2300
+Wire Wire Line
+	9650 2250 9650 2300
+Wire Wire Line
+	9750 2250 9750 2300
+Wire Wire Line
+	9850 2250 9850 2300
+Wire Wire Line
+	9950 2300 9950 2250
+Wire Wire Line
+	10450 2250 10450 2300
+Wire Wire Line
+	10550 2250 10550 2300
+Wire Wire Line
+	10650 2250 10650 2300
+Wire Wire Line
+	10750 2250 10750 2300
+Wire Wire Line
+	10650 4100 10650 4150
+Wire Wire Line
+	10750 4150 10750 4100
+Wire Wire Line
+	7950 2250 7950 2300
+Wire Wire Line
+	8050 2250 8050 2300
+Wire Wire Line
+	8150 2250 8150 2300
+Wire Wire Line
+	8250 2250 8250 2300
+Wire Wire Line
+	8350 2250 8350 2300
+Wire Wire Line
+	7400 3200 7350 3200
+Wire Wire Line
+	7350 3200 7350 3250
+Wire Wire Line
+	8750 1850 8650 1850
+Connection ~ 8750 1800
+Wire Wire Line
+	9250 4100 9250 4550
+Wire Wire Line
+	10050 4150 10050 4100
+Wire Wire Line
+	7850 4150 7850 4100
+Wire Wire Line
+	7750 4150 7750 4100
+Wire Wire Line
+	7800 1600 7750 1600
+Wire Wire Line
+	7750 1600 7750 1550
+Connection ~ 7800 1750
+Wire Wire Line
+	7650 1550 7650 1600
+Wire Wire Line
+	7650 1600 7600 1600
+Connection ~ 7600 1750
+Wire Wire Line
+	9250 2250 9250 2300
+Wire Wire Line
+	9350 2250 9350 2300
+Wire Wire Line
+	9450 2250 9450 2300
+Wire Wire Line
+	9550 2250 9550 2300
+Wire Wire Line
+	9150 4550 9150 5100
+Wire Wire Line
+	9250 4550 9150 4550
+Wire Wire Line
+	9250 5150 9250 5100
+Wire Wire Line
+	9250 5100 9150 5100
+Connection ~ 9150 4950
+Wire Wire Line
+	9250 4600 9250 4900
+Wire Wire Line
+	9250 4600 9350 4600
+Wire Wire Line
+	9350 4600 9350 4100
+Wire Wire Line
+	10250 4100 10250 4700
+Wire Wire Line
+	10250 4700 10150 4700
+Wire Wire Line
+	10150 4700 10150 4750
+Wire Wire Line
+	10150 4650 10150 4100
+Wire Wire Line
+	9850 4650 10150 4650
+Wire Wire Line
+	8450 1450 8550 1450
+Wire Wire Line
+	8550 1450 8550 1400
+Wire Wire Line
+	8550 1400 8750 1400
+Wire Wire Line
+	9250 4900 9350 4900
+Connection ~ 9250 4650
+$Comp
+L AD7770 U?
+U 1 1 587EE5FB
+P 9200 3200
+F 0 "U?" H 9200 3250 60  0000 C CNN
+F 1 "AD7770" H 9200 3150 60  0000 C CNN
+F 2 "" H 9200 3200 60  0000 C CNN
+F 3 "" H 9200 3200 60  0000 C CNN
+	1    9200 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L ADR4525 U?
+U 1 1 587EE602
+P 6200 5350
+F 0 "U?" H 6200 5100 60  0000 C CNN
+F 1 "ADR4525" H 6200 5600 60  0000 C CNN
+F 2 "" H 6200 5400 60  0001 C CNN
+F 3 "" H 6200 5400 60  0001 C CNN
+	1    6200 5350
+	1    0    0    -1  
+$EndComp
+Text GLabel 5400 2500 2    60   Input ~ 0
+SDO
+Text GLabel 5400 2400 2    60   Input ~ 0
+SDI
+Text GLabel 5400 2300 2    60   Input ~ 0
+SCLK
+Text GLabel 5400 2200 2    60   Input ~ 0
+CS
+Text GLabel 5400 2000 2    60   Input ~ 0
+START
+Text GLabel 5400 1900 2    60   Input ~ 0
+RESET_ADC
+Text GLabel 5400 2100 2    60   Input ~ 0
+DRDY
+Text GLabel 5600 4600 3    60   Input ~ 0
+REF2+
+Text GLabel 5400 1800 2    60   Input ~ 0
+IOVDD
+Text GLabel 5600 4000 3    60   Input ~ 0
+REF2-
+Text GLabel 5900 4600 3    60   Input ~ 0
+AVDD1B
+Text GLabel 5900 4000 3    60   Input ~ 0
+AVSS1B
+Text GLabel 6000 4000 3    60   Input ~ 0
+AVSS2B
+Text GLabel 6000 4600 3    60   Input ~ 0
+AVDD2B
+Text GLabel 6100 4000 3    60   Input ~ 0
+AVSS3
+Text GLabel 6200 4600 3    60   Input ~ 0
+AVDD2A
+Text GLabel 6200 4000 3    60   Input ~ 0
+AVSS2A
+Text GLabel 6300 4000 3    60   Input ~ 0
+AVSS4
+Text GLabel 6300 4600 3    60   Input ~ 0
+AVDD4
+Text GLabel 5500 4950 1    60   Input ~ 0
+REF1+
+Text GLabel 5500 4350 1    60   Input ~ 0
+REF1-
+Text GLabel 5800 5000 1    60   Input ~ 0
+AVDD1A
+Text GLabel 5800 4400 1    60   Input ~ 0
+AVSS1A
+Text GLabel 5250 4300 1    60   Input ~ 0
+DGND
+Text GLabel 5050 4000 3    60   Input ~ 0
+EPAD
+Text GLabel 4250 4000 3    60   Input ~ 0
+SYNC_OUT
+Text GLabel 4400 4000 3    60   Input ~ 0
+SYNC_IN
+Text GLabel 4050 4850 3    60   Input ~ 0
+FORMAT1
+Text GLabel 3950 4850 3    60   Input ~ 0
+FORMAT0
+Text GLabel 3850 4850 3    60   Input ~ 0
+CLK_SEL
+Text GLabel 5400 2600 2    60   Input ~ 0
+XTAL2
+Text GLabel 4750 3750 1    60   Input ~ 0
+XTAL1
+Text HLabel 5300 2500 0    60   Input ~ 0
+SDO_ADC1
+Text HLabel 5300 2400 0    60   Input ~ 0
+SDI_ADC1
+Text HLabel 5300 2300 0    60   Input ~ 0
+SCLK_ADC1
+Text HLabel 5300 2200 0    60   Input ~ 0
+CS_ADC1
+Text HLabel 5300 2100 0    60   Input ~ 0
+DRDY_ADC1
+Text HLabel 5300 2000 0    60   Input ~ 0
+START_ADC1
+Text HLabel 5300 1900 0    60   Input ~ 0
+RESET_ADC1
+Text HLabel 5300 1800 0    60   Input ~ 0
+IOVDD_ADC1
+Text HLabel 5300 1700 0    60   Input ~ 0
+AVDD_ADC1
+Text HLabel 5300 1600 0    60   Input ~ 0
+VSS_ADC1
+Text HLabel 5300 1500 0    60   Input ~ 0
+VDD_ADC1
+Text HLabel 5300 2600 0    60   Input ~ 0
+XTAL_ADC1
+$Comp
+L TPD4E1B06 U?
+U 1 1 58882447
+P 2950 3400
+F 0 "U?" H 2950 3200 60  0000 C CNN
+F 1 "TPD4E1B06" H 2950 3600 60  0000 C CNN
+F 2 "" H 2950 3400 60  0001 C CNN
+F 3 "" H 2950 3400 60  0001 C CNN
+	1    2950 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TPD4E1B06 U?
+U 1 1 588824F2
+P 2050 2200
+F 0 "U?" H 2050 2000 60  0000 C CNN
+F 1 "TPD4E1B06" H 2050 2400 60  0000 C CNN
+F 2 "" H 2050 2200 60  0001 C CNN
+F 3 "" H 2050 2200 60  0001 C CNN
+	1    2050 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L TPD4E1B06 U?
+U 1 1 588825E1
+P 1400 4300
+F 0 "U?" H 1400 4100 60  0000 C CNN
+F 1 "TPD4E1B06" H 1400 4500 60  0000 C CNN
+F 2 "" H 1400 4300 60  0001 C CNN
+F 3 "" H 1400 4300 60  0001 C CNN
+	1    1400 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L TPD4E1B06 U?
+U 1 1 58882625
+P 2100 5300
+F 0 "U?" H 2100 5100 60  0000 C CNN
+F 1 "TPD4E1B06" H 2100 5500 60  0000 C CNN
+F 2 "" H 2100 5300 60  0001 C CNN
+F 3 "" H 2100 5300 60  0001 C CNN
+	1    2100 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L TPD4E1B06 U?
+U 1 1 5888266A
+P 2500 6100
+F 0 "U?" H 2500 5900 60  0000 C CNN
+F 1 "TPD4E1B06" H 2500 6300 60  0000 C CNN
+F 2 "" H 2500 6100 60  0001 C CNN
+F 3 "" H 2500 6100 60  0001 C CNN
+	1    2500 6100
+	1    0    0    -1  
+$EndComp
+Text GLabel 5400 1500 2    60   Input ~ 0
+VDD
+Text GLabel 5400 1600 2    60   Input ~ 0
+VSS
+Text GLabel 5400 1700 2    60   Input ~ 0
+AVDD
+Wire Wire Line
+	5400 2600 5300 2600
+Wire Wire Line
+	5400 2500 5300 2500
+Wire Wire Line
+	5400 2400 5300 2400
+Wire Wire Line
+	5400 2300 5300 2300
+Wire Wire Line
+	5400 2200 5300 2200
+Wire Wire Line
+	5400 2100 5300 2100
+Wire Wire Line
+	5400 2000 5300 2000
+Wire Wire Line
+	5400 1900 5300 1900
+Wire Wire Line
+	5400 1800 5300 1800
+Wire Wire Line
+	5400 1700 5300 1700
+Wire Wire Line
+	5300 1600 5400 1600
+Wire Wire Line
+	5300 1500 5400 1500
+Text GLabel 5750 5300 0    60   Input ~ 0
+VDD
+Text GLabel 5750 5500 0    60   Input ~ 0
+VSS
+Wire Wire Line
+	5800 5300 5750 5300
+Wire Wire Line
+	5800 5500 5750 5500
+$EndSCHEMATC

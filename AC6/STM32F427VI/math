@@ -1,0 +1,14 @@
+								<option id="gnu.c.link.option.libs.8563159" name="Libraries (-l)" superClass="gnu.c.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="arm_cortexM4lf_math" />
+								</option>
+								<option id="gnu.c.link.option.paths.558466128" name="Library search path (-L)" superClass="gnu.c.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="/home/dmitryneuro/.ac6/SW4STM32/firmwares/STM32Cube_FW_F4_V1.11.0/Drivers/CMSIS/Lib/GCC" />
+								</option>
+								<option id="gnu.c.link.option.ldflags.2079439713" superClass="gnu.c.link.option.ldflags" value="-specs=rdimon.specs" valueType="string" />
+								
+								
+								
+								<option id="gnu.c.link.option.libs.8563159" name="Libraries (-l)" superClass="gnu.c.link.option.libs" />
+								<option id="gnu.c.link.option.paths.558466128" name="Library search path (-L)" superClass="gnu.c.link.option.paths" />
+								<option id="gnu.c.link.option.ldflags.2079439713" superClass="gnu.c.link.option.ldflags" value="-specs=nosys.specs -specs=nano.specs" valueType="string" />
+
