@@ -262,7 +262,7 @@ Text GLabel 8350 1150 1    60   Input ~ 0
 AD2_DRDY
 Text GLabel 8250 1150 1    60   Input ~ 0
 AD2_START
-Text GLabel 7550 1150 1    60   Input ~ 0
+Text GLabel 7950 1150 1    60   Input ~ 0
 AD2_RESET
 Text GLabel 11900 2250 2    60   Input ~ 0
 ESP_RESET
@@ -885,7 +885,7 @@ Wire Wire Line
 Wire Wire Line
 	11850 2250 11900 2250
 Wire Wire Line
-	7550 1200 7550 1150
+	7950 1200 7950 1150
 Wire Wire Line
 	8250 1200 8250 1150
 Wire Wire Line

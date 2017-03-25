@@ -738,9 +738,9 @@ F 3 "" H -14700 500 60  0001 C CNN
 	1    -14700 550 
 	1    0    0    -1  
 $EndComp
-Text GLabel 9650 8450 3    60   Input ~ 0
+Text GLabel 9050 5250 3    60   Input ~ 0
 I2C2_SDA
-Text GLabel 9550 8450 3    60   Input ~ 0
+Text GLabel 8950 5250 3    60   Input ~ 0
 I2C2_SCL
 $Comp
 L FXO-SM7_OSC-SMD7050_short U3
@@ -1188,13 +1188,7 @@ Wire Wire Line
 Wire Wire Line
 	10900 2850 10950 2850
 Wire Wire Line
-	9300 5500 9300 5600
-Wire Wire Line
-	9100 5500 9100 5600
-Wire Wire Line
-	9100 5550 9100 5250
-Connection ~ 9100 5550
-Connection ~ 9300 5550
+	9100 5250 9100 5600
 Wire Wire Line
 	9100 5250 9150 5250
 Wire Wire Line
@@ -1232,7 +1226,7 @@ Wire Wire Line
 Wire Wire Line
 	10900 1550 10950 1550
 Wire Wire Line
-	9300 5550 9300 5450
+	9300 5450 9300 5600
 Wire Wire Line
 	9300 5450 9150 5450
 Wire Wire Line
@@ -1313,9 +1307,9 @@ Wire Wire Line
 Wire Wire Line
 	8500 6250 8550 6250
 Wire Wire Line
-	9550 8450 9550 8400
+	8950 5250 8950 5200
 Wire Wire Line
-	9650 8450 9650 8400
+	9050 5250 9050 5200
 $Sheet
 S 600  4450 1100 900 
 U 58CE50D0
@@ -1526,4 +1520,6 @@ Wire Wire Line
 	10900 4000 10900 3950
 Wire Wire Line
 	10900 3950 10950 3950
+Connection ~ 9300 5550
+Connection ~ 9100 5550
 $EndSCHEMATC
