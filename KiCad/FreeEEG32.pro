@@ -1,4 +1,4 @@
-update=Mon 20 Mar 2017 15:24:03 MSK
+update=Fri 24 Mar 2017 16:28:52 MSK
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -102,3 +92,13 @@ LibName60=/home/dmitryneuro/Документы/neuroidss/FreeEEG32/components/LP
 LibName61=/home/dmitryneuro/workspace_stm32/STM32F427ZI_x
 LibName62=473521001
 LibName63=adp7118aujz-3.3
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=out/svg/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
