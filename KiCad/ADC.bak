@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:FreeSmartEEG_AD7770_STM32F405VG_nRF52832_ESP8266-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,11 +29,9 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:stm32f410rbt6
-LIBS:AD7768
 LIBS:esp8266
 LIBS:stm32f103r8t7
 LIBS:nrf52832
-LIBS:AD7779
 LIBS:STM32F405VG
 LIBS:AD7770
 LIBS:LP5907
@@ -62,6 +59,7 @@ LIBS:LP5912
 LIBS:STM32F427ZI_x
 LIBS:473521001
 LIBS:adp7118aujz-3.3
+LIBS:tlv73333pdbvt
 LIBS:FreeEEG32-cache
 EELAYER 25 0
 EELAYER END
@@ -466,21 +464,6 @@ F 3 "" H 2400 4750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TPD4E1B06 U12
-U 1 1 58B4BD4A
-P 2400 6950
-AR Path="/58B4B6C8/58B4BD4A" Ref="U12"  Part="1" 
-AR Path="/58B5BC1A/58B4BD4A" Ref="U19"  Part="1" 
-AR Path="/58B5D98C/58B4BD4A" Ref="U26"  Part="1" 
-AR Path="/58B5EE77/58B4BD4A" Ref="U33"  Part="1" 
-F 0 "U12" H 2400 6750 60  0000 C CNN
-F 1 "TPD4E1B06" H 2400 7150 60  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SC-70-6" H 2400 6950 60  0001 C CNN
-F 3 "" H 2400 6950 60  0001 C CNN
-	1    2400 6950
-	1    0    0    -1  
-$EndComp
-$Comp
 L TPD4E1B06 U9
 U 1 1 58B4BD51
 P 2400 5300
@@ -672,18 +655,6 @@ Text Label 8100 1500 0    60   ~ 0
 AUXAIN-
 Text Label 1950 3900 2    60   ~ 0
 V+
-Text Label 1950 4100 2    60   ~ 0
-GND
-Text Label 1950 7050 2    60   ~ 0
-VSS
-Text Label 1950 4850 2    60   ~ 0
-VSS
-Text Label 1950 5400 2    60   ~ 0
-VSS
-Text Label 1950 5950 2    60   ~ 0
-VSS
-Text Label 1950 6500 2    60   ~ 0
-VSS
 Text HLabel 1150 2000 0    60   Input ~ 0
 SYNC_OUT
 Text Label 1250 2000 0    60   ~ 0
@@ -978,8 +949,6 @@ Wire Wire Line
 Wire Wire Line
 	2850 4000 2800 4000
 Wire Wire Line
-	1950 7050 2000 7050
-Wire Wire Line
 	1950 4850 2000 4850
 Wire Wire Line
 	1950 5400 2000 5400
@@ -1055,23 +1024,11 @@ Text Label 4200 2100 2    60   ~ 0
 GND
 Text Label 4200 1900 2    60   ~ 0
 GND
-Text Label 10150 3500 0    60   ~ 0
-GND
-Text Label 10150 3700 0    60   ~ 0
-GND
-Text Label 10150 2900 0    60   ~ 0
-GND
-Text Label 10150 2600 0    60   ~ 0
-GND
 Text Label 10150 1900 0    60   ~ 0
 GND
 Text Label 10150 1800 0    60   ~ 0
 GND
 Text Label 4200 2000 2    60   ~ 0
-AVDD
-Text Label 10150 3600 0    60   ~ 0
-AVDD
-Text Label 10150 2700 0    60   ~ 0
 AVDD
 Text Label 10150 2100 0    60   ~ 0
 AVDD
@@ -1261,8 +1218,6 @@ Wire Wire Line
 	2850 4750 2800 4750
 Text Label 7200 5100 0    60   ~ 0
 EPAD
-Text Label 7100 5100 2    60   ~ 0
-GND
 Wire Wire Line
 	7200 5100 7100 5100
 Text Label 10050 2450 2    60   ~ 0
@@ -1334,4 +1289,42 @@ Text Label 4200 3100 2    60   ~ 0
 GND
 Wire Wire Line
 	4200 3100 4300 3100
+Wire Wire Line
+	4300 6450 4350 6450
+Wire Wire Line
+	4900 6450 4850 6450
+Wire Wire Line
+	4850 5550 4850 5400
+Wire Wire Line
+	4850 5400 4350 5400
+Wire Wire Line
+	4350 5400 4350 5550
+Text Label 10150 3600 0    60   ~ 0
+AVDD
+Text Label 10150 2600 0    60   ~ 0
+GND
+Text Label 10150 2700 0    60   ~ 0
+AVDD
+Text Label 10150 2900 0    60   ~ 0
+GND
+Text Label 10150 3500 0    60   ~ 0
+GND
+Text Label 10150 3700 0    60   ~ 0
+GND
+Text Label 7100 5100 2    60   ~ 0
+GND
+Text Label 4900 6450 0    60   ~ 0
+GND
+Text Label 4300 6450 2    60   ~ 0
+GND
+Text Label 1950 6500 2    60   ~ 0
+GND
+Text Label 1950 5950 2    60   ~ 0
+GND
+Text Label 1950 5400 2    60   ~ 0
+GND
+Text Label 1950 4850 2    60   ~ 0
+GND
+Text Label 1950 4100 2    60   ~ 0
+GND
 $EndSCHEMATC

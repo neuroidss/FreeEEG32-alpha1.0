@@ -1,4 +1,4 @@
-update=Fri 24 Mar 2017 16:28:52 MSK
+update=Thu 30 Mar 2017 17:13:23 MSK
 version=1
 last_client=kicad
 [pcbnew]
@@ -92,10 +92,11 @@ LibName60=/home/dmitryneuro/Документы/neuroidss/FreeEEG32/components/LP
 LibName61=/home/dmitryneuro/workspace_stm32/STM32F427ZI_x
 LibName62=473521001
 LibName63=adp7118aujz-3.3
+LibName64=tlv73333pdbvt
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=out/svg/
+PlotDirectoryName=out/sch/svg/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
