@@ -284,13 +284,13 @@ F 4 "CP2102N-A01-GQFN24" H 3650 3500 60  0001 C CNN "manf#"
 	1    3650 3500
 	1    0    0    -1  
 $EndComp
-Text GLabel 4300 3250 2    60   Input ~ 0
-UART_RX_USB
 Text GLabel 4300 3350 2    60   Input ~ 0
+UART_RX_USB
+Text GLabel 4300 3250 2    60   Input ~ 0
 UART_TX_USB
-Text GLabel 4300 3550 2    60   Input ~ 0
-UART_RTS_USB
 Text GLabel 4300 3450 2    60   Input ~ 0
+UART_RTS_USB
+Text GLabel 4300 3550 2    60   Input ~ 0
 UART_CTS_USB
 Text GLabel 5000 5050 0    60   Input ~ 0
 V+_ISO_UART
@@ -547,13 +547,13 @@ Wire Wire Line
 	5000 5050 5050 5050
 Wire Wire Line
 	5000 5150 5050 5150
-Text GLabel 4900 1650 2    60   Input ~ 0
-USART_RX_ISO
 Text GLabel 4900 1750 2    60   Input ~ 0
+USART_RX_ISO
+Text GLabel 4900 1650 2    60   Input ~ 0
 USART_TX_ISO
-Text GLabel 4900 1950 2    60   Input ~ 0
-USART_RTS_ISO
 Text GLabel 4900 1850 2    60   Input ~ 0
+USART_RTS_ISO
+Text GLabel 4900 1950 2    60   Input ~ 0
 USART_CTS_ISO
 Text GLabel 4850 1650 0    60   Input ~ 0
 UART_RX_WIFI
@@ -563,13 +563,13 @@ Text GLabel 4850 1950 0    60   Input ~ 0
 UART_RTS_WIFI
 Text GLabel 4850 1850 0    60   Input ~ 0
 UART_CTS_WIFI
-Text GLabel 4900 2100 2    60   Input ~ 0
-USART_RX_ISO
 Text GLabel 4900 2200 2    60   Input ~ 0
+USART_RX_ISO
+Text GLabel 4900 2100 2    60   Input ~ 0
 USART_TX_ISO
-Text GLabel 4900 2400 2    60   Input ~ 0
-USART_RTS_ISO
 Text GLabel 4900 2300 2    60   Input ~ 0
+USART_RTS_ISO
+Text GLabel 4900 2400 2    60   Input ~ 0
 USART_CTS_ISO
 Text GLabel 4850 2100 0    60   Input ~ 0
 UART_RX_USB
@@ -908,7 +908,7 @@ F 0 "U19" H 7000 800 60  0001 C CNN
 F 1 "TLV73333PDBVT" H 7000 1200 60  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 7000 1000 60  0001 C CNN
 F 3 "" H 7000 1000 60  0001 C CNN
-F 4 "TLV73333PDBVT" H 7000 1000 60  0000 C CNN "manf#"
+F 4 "TLV73333PDBVT" H 7000 1000 60  0001 C CNN "manf#"
 	1    7000 1000
 	1    0    0    -1  
 $EndComp
