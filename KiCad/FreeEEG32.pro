@@ -1,4 +1,4 @@
-update=Thu 30 Mar 2017 22:46:24 MSK
+update=Fri 31 Mar 2017 13:40:29 MSK
 version=1
 last_client=kicad
 [pcbnew]
@@ -95,12 +95,12 @@ LibName53=/home/dmitryneuro/kicad/libraries/kicad-ESP8266/ESP8266
 LibName54=sn6505a
 LibName55=sn6501
 LibName56=da2303
-LibName57=/home/dmitryneuro/Документы/neuroidss/CP2102N/CP2102N-A01-GQFN24
-LibName58=sp0503bahtg
-LibName59=/home/dmitryneuro/Документы/neuroidss/mpu accel hyro/MPU-6500
-LibName60=/home/dmitryneuro/Документы/neuroidss/FreeEEG32/components/LP5912
-LibName61=/home/dmitryneuro/workspace_stm32/STM32F427ZI_x
-LibName62=473521001
-LibName63=adp7118aujz-3.3
-LibName64=tlv73333pdbvt
-LibName65=adum1402brwz
+LibName57=sp0503bahtg
+LibName58=/home/dmitryneuro/Документы/neuroidss/FreeEEG32/components/LP5912
+LibName59=/home/dmitryneuro/workspace_stm32/STM32F427ZI_x
+LibName60=473521001
+LibName61=adp7118aujz-3.3
+LibName62=tlv73333pdbvt
+LibName63=adum1402brwz
+LibName64=MPU-6500
+LibName65=CP2102N-A01-GQFN24
