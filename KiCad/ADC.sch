@@ -1336,8 +1336,6 @@ Text Label 10150 3700 0    60   ~ 0
 GND
 Text Label 7100 5100 2    60   ~ 0
 GND
-Text Label 4900 6450 0    60   ~ 0
-GND
 Text Label 4300 6450 2    60   ~ 0
 GND
 Text Label 1950 6500 2    60   ~ 0
@@ -1350,4 +1348,6 @@ Text Label 1950 4850 2    60   ~ 0
 GND
 Text Label 1950 4100 2    60   ~ 0
 GND
+Text Label 4900 6450 0    60   ~ 0
+AVDD
 $EndSCHEMATC
