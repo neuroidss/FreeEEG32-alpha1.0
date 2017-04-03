@@ -66,7 +66,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 4 6
 Title ""
 Date ""
 Rev ""
@@ -84,7 +84,8 @@ AR Path="/58B4B6C8/58B4BBD1" Ref="C15"  Part="1"
 AR Path="/58B5BC1A/58B4BBD1" Ref="C38"  Part="1" 
 AR Path="/58B5D98C/58B4BBD1" Ref="C61"  Part="1" 
 AR Path="/58B5EE77/58B4BBD1" Ref="C82"  Part="1" 
-F 0 "C15" H 5510 3970 50  0000 L CNN
+AR Path="/58E92942/58B4BBD1" Ref="C38"  Part="1" 
+F 0 "C82" H 5510 3970 50  0000 L CNN
 F 1 "1u" H 5510 3820 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 5500 3900 50  0001 C CNN
 F 3 "" H 5500 3900 50  0000 C CNN
@@ -100,7 +101,8 @@ AR Path="/58B4B6C8/58B4BBD8" Ref="C19"  Part="1"
 AR Path="/58B5BC1A/58B4BBD8" Ref="C43"  Part="1" 
 AR Path="/58B5D98C/58B4BBD8" Ref="C65"  Part="1" 
 AR Path="/58B5EE77/58B4BBD8" Ref="C86"  Part="1" 
-F 0 "C19" H 5760 3970 50  0000 L CNN
+AR Path="/58E92942/58B4BBD8" Ref="C43"  Part="1" 
+F 0 "C86" H 5760 3970 50  0000 L CNN
 F 1 "100n" H 5760 3820 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 5750 3900 50  0001 C CNN
 F 3 "" H 5750 3900 50  0000 C CNN
@@ -116,7 +118,8 @@ AR Path="/58B4B6C8/58B4BBDF" Ref="C18"  Part="1"
 AR Path="/58B5BC1A/58B4BBDF" Ref="C41"  Part="1" 
 AR Path="/58B5D98C/58B4BBDF" Ref="C64"  Part="1" 
 AR Path="/58B5EE77/58B4BBDF" Ref="C85"  Part="1" 
-F 0 "C18" H 5760 3670 50  0000 L CNN
+AR Path="/58E92942/58B4BBDF" Ref="C41"  Part="1" 
+F 0 "C85" H 5760 3670 50  0000 L CNN
 F 1 "100n" H 5760 3520 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 5750 3600 50  0001 C CNN
 F 3 "" H 5750 3600 50  0000 C CNN
@@ -132,7 +135,8 @@ AR Path="/58B4B6C8/58B4BBE6" Ref="C14"  Part="1"
 AR Path="/58B5BC1A/58B4BBE6" Ref="C37"  Part="1" 
 AR Path="/58B5D98C/58B4BBE6" Ref="C60"  Part="1" 
 AR Path="/58B5EE77/58B4BBE6" Ref="C81"  Part="1" 
-F 0 "C14" H 5510 3670 50  0000 L CNN
+AR Path="/58E92942/58B4BBE6" Ref="C37"  Part="1" 
+F 0 "C81" H 5510 3670 50  0000 L CNN
 F 1 "1u" H 5510 3520 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 5500 3600 50  0001 C CNN
 F 3 "" H 5500 3600 50  0000 C CNN
@@ -148,7 +152,8 @@ AR Path="/58B4B6C8/58B4BBED" Ref="C17"  Part="1"
 AR Path="/58B5BC1A/58B4BBED" Ref="C40"  Part="1" 
 AR Path="/58B5D98C/58B4BBED" Ref="C63"  Part="1" 
 AR Path="/58B5EE77/58B4BBED" Ref="C84"  Part="1" 
-F 0 "C17" H 5760 2270 50  0000 L CNN
+AR Path="/58E92942/58B4BBED" Ref="C40"  Part="1" 
+F 0 "C84" H 5760 2270 50  0000 L CNN
 F 1 "100n" H 5760 2120 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 5750 2200 50  0001 C CNN
 F 3 "" H 5750 2200 50  0000 C CNN
@@ -164,7 +169,8 @@ AR Path="/58B4B6C8/58B4BBF4" Ref="C13"  Part="1"
 AR Path="/58B5BC1A/58B4BBF4" Ref="C36"  Part="1" 
 AR Path="/58B5D98C/58B4BBF4" Ref="C59"  Part="1" 
 AR Path="/58B5EE77/58B4BBF4" Ref="C80"  Part="1" 
-F 0 "C13" H 5510 2270 50  0000 L CNN
+AR Path="/58E92942/58B4BBF4" Ref="C36"  Part="1" 
+F 0 "C80" H 5510 2270 50  0000 L CNN
 F 1 "1u" H 5510 2120 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 5500 2200 50  0001 C CNN
 F 3 "" H 5500 2200 50  0000 C CNN
@@ -180,7 +186,8 @@ AR Path="/58B4B6C8/58B4BBFB" Ref="C16"  Part="1"
 AR Path="/58B5BC1A/58B4BBFB" Ref="C39"  Part="1" 
 AR Path="/58B5D98C/58B4BBFB" Ref="C62"  Part="1" 
 AR Path="/58B5EE77/58B4BBFB" Ref="C83"  Part="1" 
-F 0 "C16" H 5760 1970 50  0000 L CNN
+AR Path="/58E92942/58B4BBFB" Ref="C39"  Part="1" 
+F 0 "C83" H 5760 1970 50  0000 L CNN
 F 1 "100n" H 5760 1820 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 5750 1900 50  0001 C CNN
 F 3 "" H 5750 1900 50  0000 C CNN
@@ -196,7 +203,8 @@ AR Path="/58B4B6C8/58B4BC02" Ref="C12"  Part="1"
 AR Path="/58B5BC1A/58B4BC02" Ref="C35"  Part="1" 
 AR Path="/58B5D98C/58B4BC02" Ref="C58"  Part="1" 
 AR Path="/58B5EE77/58B4BC02" Ref="C79"  Part="1" 
-F 0 "C12" H 5510 1970 50  0000 L CNN
+AR Path="/58E92942/58B4BC02" Ref="C35"  Part="1" 
+F 0 "C79" H 5510 1970 50  0000 L CNN
 F 1 "1u" H 5510 1820 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 5500 1900 50  0001 C CNN
 F 3 "" H 5500 1900 50  0000 C CNN
@@ -212,7 +220,8 @@ AR Path="/58B4B6C8/58B4BC09" Ref="C20"  Part="1"
 AR Path="/58B5BC1A/58B4BC09" Ref="C44"  Part="1" 
 AR Path="/58B5D98C/58B4BC09" Ref="C66"  Part="1" 
 AR Path="/58B5EE77/58B4BC09" Ref="C87"  Part="1" 
-F 0 "C20" H 8560 3570 50  0000 L CNN
+AR Path="/58E92942/58B4BC09" Ref="C44"  Part="1" 
+F 0 "C87" H 8560 3570 50  0000 L CNN
 F 1 "100n" H 8560 3420 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 8550 3500 50  0001 C CNN
 F 3 "" H 8550 3500 50  0000 C CNN
@@ -228,7 +237,8 @@ AR Path="/58B4B6C8/58B4BC10" Ref="C29"  Part="1"
 AR Path="/58B5BC1A/58B4BC10" Ref="C51"  Part="1" 
 AR Path="/58B5D98C/58B4BC10" Ref="C73"  Part="1" 
 AR Path="/58B5EE77/58B4BC10" Ref="C94"  Part="1" 
-F 0 "C29" H 8810 3570 50  0000 L CNN
+AR Path="/58E92942/58B4BC10" Ref="C51"  Part="1" 
+F 0 "C94" H 8810 3570 50  0000 L CNN
 F 1 "1u" H 8810 3420 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 8800 3500 50  0001 C CNN
 F 3 "" H 8800 3500 50  0000 C CNN
@@ -244,7 +254,8 @@ AR Path="/58B4B6C8/58B4BC17" Ref="C30"  Part="1"
 AR Path="/58B5BC1A/58B4BC17" Ref="C53"  Part="1" 
 AR Path="/58B5D98C/58B4BC17" Ref="C74"  Part="1" 
 AR Path="/58B5EE77/58B4BC17" Ref="C95"  Part="1" 
-F 0 "C30" H 8810 3870 50  0000 L CNN
+AR Path="/58E92942/58B4BC17" Ref="C53"  Part="1" 
+F 0 "C95" H 8810 3870 50  0000 L CNN
 F 1 "1u" H 8810 3720 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 8800 3800 50  0001 C CNN
 F 3 "" H 8800 3800 50  0000 C CNN
@@ -260,7 +271,8 @@ AR Path="/58B4B6C8/58B4BC1E" Ref="C21"  Part="1"
 AR Path="/58B5BC1A/58B4BC1E" Ref="C45"  Part="1" 
 AR Path="/58B5D98C/58B4BC1E" Ref="C67"  Part="1" 
 AR Path="/58B5EE77/58B4BC1E" Ref="C88"  Part="1" 
-F 0 "C21" H 8560 3870 50  0000 L CNN
+AR Path="/58E92942/58B4BC1E" Ref="C45"  Part="1" 
+F 0 "C88" H 8560 3870 50  0000 L CNN
 F 1 "100n" H 8560 3720 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 8550 3800 50  0001 C CNN
 F 3 "" H 8550 3800 50  0000 C CNN
@@ -276,7 +288,8 @@ AR Path="/58B4B6C8/58B4BC25" Ref="C34"  Part="1"
 AR Path="/58B5BC1A/58B4BC25" Ref="C57"  Part="1" 
 AR Path="/58B5D98C/58B4BC25" Ref="C78"  Part="1" 
 AR Path="/58B5EE77/58B4BC25" Ref="C99"  Part="1" 
-F 0 "C34" H 8910 3070 50  0000 L CNN
+AR Path="/58E92942/58B4BC25" Ref="C57"  Part="1" 
+F 0 "C99" H 8910 3070 50  0000 L CNN
 F 1 "100n" H 8910 2920 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 8900 3000 50  0001 C CNN
 F 3 "" H 8900 3000 50  0000 C CNN
@@ -292,7 +305,8 @@ AR Path="/58B4B6C8/58B4BC2C" Ref="C22"  Part="1"
 AR Path="/58B5BC1A/58B4BC2C" Ref="C46"  Part="1" 
 AR Path="/58B5D98C/58B4BC2C" Ref="C68"  Part="1" 
 AR Path="/58B5EE77/58B4BC2C" Ref="C89"  Part="1" 
-F 0 "C22" H 8310 2920 50  0000 L CNN
+AR Path="/58E92942/58B4BC2C" Ref="C46"  Part="1" 
+F 0 "C89" H 8310 2920 50  0000 L CNN
 F 1 "100n" H 8310 2770 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 8300 2850 50  0001 C CNN
 F 3 "" H 8300 2850 50  0000 C CNN
@@ -308,7 +322,8 @@ AR Path="/58B4B6C8/58B4BC33" Ref="C27"  Part="1"
 AR Path="/58B5BC1A/58B4BC33" Ref="C49"  Part="1" 
 AR Path="/58B5D98C/58B4BC33" Ref="C71"  Part="1" 
 AR Path="/58B5EE77/58B4BC33" Ref="C92"  Part="1" 
-F 0 "C27" H 8660 2870 50  0000 L CNN
+AR Path="/58E92942/58B4BC33" Ref="C49"  Part="1" 
+F 0 "C92" H 8660 2870 50  0000 L CNN
 F 1 "100n" H 8660 2720 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 8650 2800 50  0001 C CNN
 F 3 "" H 8650 2800 50  0000 C CNN
@@ -324,7 +339,8 @@ AR Path="/58B4B6C8/58B4BC3A" Ref="C26"  Part="1"
 AR Path="/58B5BC1A/58B4BC3A" Ref="C48"  Part="1" 
 AR Path="/58B5D98C/58B4BC3A" Ref="C70"  Part="1" 
 AR Path="/58B5EE77/58B4BC3A" Ref="C91"  Part="1" 
-F 0 "C26" H 8660 2070 50  0000 L CNN
+AR Path="/58E92942/58B4BC3A" Ref="C48"  Part="1" 
+F 0 "C91" H 8660 2070 50  0000 L CNN
 F 1 "100n" H 8660 1920 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 8650 2000 50  0001 C CNN
 F 3 "" H 8650 2000 50  0000 C CNN
@@ -340,7 +356,8 @@ AR Path="/58B4B6C8/58B4BC41" Ref="C28"  Part="1"
 AR Path="/58B5BC1A/58B4BC41" Ref="C50"  Part="1" 
 AR Path="/58B5D98C/58B4BC41" Ref="C72"  Part="1" 
 AR Path="/58B5EE77/58B4BC41" Ref="C93"  Part="1" 
-F 0 "C28" H 8310 2020 50  0000 L CNN
+AR Path="/58E92942/58B4BC41" Ref="C50"  Part="1" 
+F 0 "C93" H 8310 2020 50  0000 L CNN
 F 1 "100n" H 8310 1870 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 8300 1950 50  0001 C CNN
 F 3 "" H 8300 1950 50  0000 C CNN
@@ -356,7 +373,8 @@ AR Path="/58B4B6C8/58B4BC48" Ref="C23"  Part="1"
 AR Path="/58B5BC1A/58B4BC48" Ref="C47"  Part="1" 
 AR Path="/58B5D98C/58B4BC48" Ref="C69"  Part="1" 
 AR Path="/58B5EE77/58B4BC48" Ref="C90"  Part="1" 
-F 0 "C23" H 8660 1770 50  0000 L CNN
+AR Path="/58E92942/58B4BC48" Ref="C47"  Part="1" 
+F 0 "C90" H 8660 1770 50  0000 L CNN
 F 1 "100n" H 8660 1620 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 8650 1700 50  0001 C CNN
 F 3 "" H 8650 1700 50  0000 C CNN
@@ -372,7 +390,8 @@ AR Path="/58B4B6C8/58B4BC4F" Ref="C33"  Part="1"
 AR Path="/58B5BC1A/58B4BC4F" Ref="C56"  Part="1" 
 AR Path="/58B5D98C/58B4BC4F" Ref="C77"  Part="1" 
 AR Path="/58B5EE77/58B4BC4F" Ref="C98"  Part="1" 
-F 0 "C33" H 8910 2870 50  0000 L CNN
+AR Path="/58E92942/58B4BC4F" Ref="C56"  Part="1" 
+F 0 "C98" H 8910 2870 50  0000 L CNN
 F 1 "1u" H 8910 2720 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 8900 2800 50  0001 C CNN
 F 3 "" H 8900 2800 50  0000 C CNN
@@ -388,7 +407,8 @@ AR Path="/58B4B6C8/58B4BC56" Ref="C32"  Part="1"
 AR Path="/58B5BC1A/58B4BC56" Ref="C55"  Part="1" 
 AR Path="/58B5D98C/58B4BC56" Ref="C76"  Part="1" 
 AR Path="/58B5EE77/58B4BC56" Ref="C97"  Part="1" 
-F 0 "C32" H 8910 2070 50  0000 L CNN
+AR Path="/58E92942/58B4BC56" Ref="C55"  Part="1" 
+F 0 "C97" H 8910 2070 50  0000 L CNN
 F 1 "1u" H 8910 1920 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 8900 2000 50  0001 C CNN
 F 3 "" H 8900 2000 50  0000 C CNN
@@ -404,7 +424,8 @@ AR Path="/58B4B6C8/58B4BC5D" Ref="C31"  Part="1"
 AR Path="/58B5BC1A/58B4BC5D" Ref="C54"  Part="1" 
 AR Path="/58B5D98C/58B4BC5D" Ref="C75"  Part="1" 
 AR Path="/58B5EE77/58B4BC5D" Ref="C96"  Part="1" 
-F 0 "C31" H 8910 1770 50  0000 L CNN
+AR Path="/58E92942/58B4BC5D" Ref="C54"  Part="1" 
+F 0 "C96" H 8910 1770 50  0000 L CNN
 F 1 "1u" H 8910 1620 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402" H 8900 1700 50  0001 C CNN
 F 3 "" H 8900 1700 50  0000 C CNN
@@ -420,7 +441,8 @@ AR Path="/58B4B6C8/58B4BD09" Ref="U13"  Part="1"
 AR Path="/58B5BC1A/58B4BD09" Ref="U20"  Part="1" 
 AR Path="/58B5D98C/58B4BD09" Ref="U27"  Part="1" 
 AR Path="/58B5EE77/58B4BD09" Ref="U34"  Part="1" 
-F 0 "U13" H 7150 3100 60  0000 C CNN
+AR Path="/58E92942/58B4BD09" Ref="U20"  Part="1" 
+F 0 "U34" H 7150 3100 60  0000 C CNN
 F 1 "AD7770" H 7150 3000 60  0000 C CNN
 F 2 "Housings_DFN_QFN:QFN-64-1EP_9x9mm_Pitch0.5mm" H 7150 3050 60  0001 C CNN
 F 3 "" H 7150 3050 60  0000 C CNN
@@ -436,7 +458,8 @@ AR Path="/58B4B6C8/58B4BD10" Ref="U7"  Part="1"
 AR Path="/58B5BC1A/58B4BD10" Ref="U14"  Part="1" 
 AR Path="/58B5D98C/58B4BD10" Ref="U21"  Part="1" 
 AR Path="/58B5EE77/58B4BD10" Ref="U28"  Part="1" 
-F 0 "U7" H 2400 3700 60  0000 C CNN
+AR Path="/58E92942/58B4BD10" Ref="U14"  Part="1" 
+F 0 "U28" H 2400 3700 60  0000 C CNN
 F 1 "ADR4525" H 2400 4200 60  0000 C CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 2400 4000 60  0001 C CNN
 F 3 "" H 2400 4000 60  0001 C CNN
@@ -444,21 +467,21 @@ F 4 "ADR4525BRZ" H 2400 3950 60  0001 C CNN "manf#"
 	1    2400 3950
 	1    0    0    -1  
 $EndComp
-Text HLabel 1150 1800 0    60   Input ~ 0
+Text HLabel 1150 1900 0    60   Input ~ 0
 SDO
-Text HLabel 1150 1700 0    60   Input ~ 0
+Text HLabel 1150 1800 0    60   Input ~ 0
 SDI
-Text HLabel 1150 1600 0    60   Input ~ 0
+Text HLabel 1150 1700 0    60   Input ~ 0
 SCLK
-Text HLabel 1150 1500 0    60   Input ~ 0
+Text HLabel 1150 1600 0    60   Input ~ 0
 CS
-Text HLabel 1150 1400 0    60   Input ~ 0
+Text HLabel 1150 1500 0    60   Input ~ 0
 DRDY
-Text HLabel 1150 1300 0    60   Input ~ 0
+Text HLabel 1150 1400 0    60   Input ~ 0
 START
-Text HLabel 1150 1200 0    60   Input ~ 0
+Text HLabel 1150 1300 0    60   Input ~ 0
 RESET
-Text HLabel 1150 1100 0    60   Input ~ 0
+Text HLabel 1150 1200 0    60   Input ~ 0
 IOVDD
 Text HLabel 1150 1000 0    60   Input ~ 0
 AVDD
@@ -466,7 +489,7 @@ Text HLabel 1150 900  0    60   Input ~ 0
 GND
 Text HLabel 1150 800  0    60   Input ~ 0
 V+
-Text HLabel 1150 1900 0    60   Input ~ 0
+Text HLabel 1150 2000 0    60   Input ~ 0
 XTAL
 $Comp
 L TPD4E1B06 U8
@@ -476,7 +499,8 @@ AR Path="/58B4B6C8/58B4BD43" Ref="U8"  Part="1"
 AR Path="/58B5BC1A/58B4BD43" Ref="U15"  Part="1" 
 AR Path="/58B5D98C/58B4BD43" Ref="U22"  Part="1" 
 AR Path="/58B5EE77/58B4BD43" Ref="U29"  Part="1" 
-F 0 "U8" H 2400 4550 60  0000 C CNN
+AR Path="/58E92942/58B4BD43" Ref="U15"  Part="1" 
+F 0 "U29" H 2400 4550 60  0000 C CNN
 F 1 "TPD4E1B06" H 2400 4950 60  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SC-70-6" H 2400 4750 60  0001 C CNN
 F 3 "" H 2400 4750 60  0001 C CNN
@@ -492,7 +516,8 @@ AR Path="/58B4B6C8/58B4BD51" Ref="U9"  Part="1"
 AR Path="/58B5BC1A/58B4BD51" Ref="U16"  Part="1" 
 AR Path="/58B5D98C/58B4BD51" Ref="U23"  Part="1" 
 AR Path="/58B5EE77/58B4BD51" Ref="U30"  Part="1" 
-F 0 "U9" H 2400 5100 60  0000 C CNN
+AR Path="/58E92942/58B4BD51" Ref="U16"  Part="1" 
+F 0 "U30" H 2400 5100 60  0000 C CNN
 F 1 "TPD4E1B06" H 2400 5500 60  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SC-70-6" H 2400 5300 60  0001 C CNN
 F 3 "" H 2400 5300 60  0001 C CNN
@@ -508,7 +533,8 @@ AR Path="/58B4B6C8/58B4BD58" Ref="U10"  Part="1"
 AR Path="/58B5BC1A/58B4BD58" Ref="U17"  Part="1" 
 AR Path="/58B5D98C/58B4BD58" Ref="U24"  Part="1" 
 AR Path="/58B5EE77/58B4BD58" Ref="U31"  Part="1" 
-F 0 "U10" H 2400 5650 60  0000 C CNN
+AR Path="/58E92942/58B4BD58" Ref="U17"  Part="1" 
+F 0 "U31" H 2400 5650 60  0000 C CNN
 F 1 "TPD4E1B06" H 2400 6050 60  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SC-70-6" H 2400 5850 60  0001 C CNN
 F 3 "" H 2400 5850 60  0001 C CNN
@@ -524,7 +550,8 @@ AR Path="/58B4B6C8/58B4BD5F" Ref="U11"  Part="1"
 AR Path="/58B5BC1A/58B4BD5F" Ref="U18"  Part="1" 
 AR Path="/58B5D98C/58B4BD5F" Ref="U25"  Part="1" 
 AR Path="/58B5EE77/58B4BD5F" Ref="U32"  Part="1" 
-F 0 "U11" H 2400 6200 60  0000 C CNN
+AR Path="/58E92942/58B4BD5F" Ref="U18"  Part="1" 
+F 0 "U32" H 2400 6200 60  0000 C CNN
 F 1 "TPD4E1B06" H 2400 6600 60  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SC-70-6" H 2400 6400 60  0001 C CNN
 F 3 "" H 2400 6400 60  0001 C CNN
@@ -532,7 +559,7 @@ F 4 "TPD4E1B06DCKR" H 2400 6400 60  0001 C CNN "manf#"
 	1    2400 6400
 	1    0    0    -1  
 $EndComp
-Text Label 1250 1900 0    60   ~ 0
+Text Label 1250 2000 0    60   ~ 0
 XTAL2
 Text Label 6200 4600 2    60   ~ 0
 XTAL2
@@ -594,21 +621,21 @@ Text Label 6200 1600 2    60   ~ 0
 AIN0+
 Text Label 6200 1500 2    60   ~ 0
 AIN0-
-Text Label 1250 1800 0    60   ~ 0
+Text Label 1250 1900 0    60   ~ 0
 SDO
-Text Label 1250 1700 0    60   ~ 0
+Text Label 1250 1800 0    60   ~ 0
 SDI
-Text Label 1250 1600 0    60   ~ 0
+Text Label 1250 1700 0    60   ~ 0
 SCLK
-Text Label 1250 1500 0    60   ~ 0
+Text Label 1250 1600 0    60   ~ 0
 CS
-Text Label 1250 1400 0    60   ~ 0
+Text Label 1250 1500 0    60   ~ 0
 DRDY
-Text Label 1250 1300 0    60   ~ 0
+Text Label 1250 1400 0    60   ~ 0
 START
-Text Label 1250 1200 0    60   ~ 0
+Text Label 1250 1300 0    60   ~ 0
 RESET
-Text Label 1250 1100 0    60   ~ 0
+Text Label 1250 1200 0    60   ~ 0
 IOVDD
 Text Label 1250 1000 0    60   ~ 0
 AVDD
@@ -676,51 +703,51 @@ Text Label 8100 1600 0    60   ~ 0
 AUXAIN+
 Text Label 8100 1500 0    60   ~ 0
 AUXAIN-
-Text Label 1950 3900 2    60   ~ 0
+Text Label 1500 3900 2    60   ~ 0
 V+
-Text HLabel 1150 2000 0    60   Input ~ 0
-SYNC_OUT
-Text Label 1250 2000 0    60   ~ 0
-SYNC_OUT
 Text HLabel 1150 2100 0    60   Input ~ 0
-SYNC_IN
+SYNC_OUT
 Text Label 1250 2100 0    60   ~ 0
-SYNC_IN
+SYNC_OUT
 Text HLabel 1150 2200 0    60   Input ~ 0
-DCLK
+SYNC_IN
 Text Label 1250 2200 0    60   ~ 0
-DCLK
+SYNC_IN
 Text HLabel 1150 2300 0    60   Input ~ 0
-DOUT0
+DCLK
 Text Label 1250 2300 0    60   ~ 0
-DOUT0
+DCLK
 Text HLabel 1150 2400 0    60   Input ~ 0
-DOUT1
+DOUT0
 Text Label 1250 2400 0    60   ~ 0
-DOUT1
+DOUT0
 Text HLabel 1150 2500 0    60   Input ~ 0
-DOUT2
+DOUT1
 Text Label 1250 2500 0    60   ~ 0
-DOUT2
+DOUT1
 Text HLabel 1150 2600 0    60   Input ~ 0
-DOUT3
+DOUT2
 Text Label 1250 2600 0    60   ~ 0
-DOUT3
+DOUT2
 Text HLabel 1150 2700 0    60   Input ~ 0
-ALERT
+DOUT3
 Text Label 1250 2700 0    60   ~ 0
-ALERT
+DOUT3
 Text HLabel 1150 2800 0    60   Input ~ 0
-GPIO2
+ALERT
 Text Label 1250 2800 0    60   ~ 0
-GPIO2
+ALERT
 Text HLabel 1150 2900 0    60   Input ~ 0
-GPIO1
+GPIO2
 Text Label 1250 2900 0    60   ~ 0
-GPIO1
+GPIO2
 Text HLabel 1150 3000 0    60   Input ~ 0
-GPIO0
+GPIO1
 Text Label 1250 3000 0    60   ~ 0
+GPIO1
+Text HLabel 1150 3100 0    60   Input ~ 0
+GPIO0
+Text Label 1250 3100 0    60   ~ 0
 GPIO0
 Text Label 6200 3100 2    60   ~ 0
 CONVST_SAR
@@ -942,6 +969,8 @@ Wire Wire Line
 Wire Wire Line
 	5350 3700 5350 3500
 Wire Wire Line
+	1250 2000 1150 2000
+Wire Wire Line
 	1250 1900 1150 1900
 Wire Wire Line
 	1250 1800 1150 1800
@@ -958,17 +987,15 @@ Wire Wire Line
 Wire Wire Line
 	1250 1200 1150 1200
 Wire Wire Line
-	1250 1100 1150 1100
-Wire Wire Line
 	1250 1000 1150 1000
 Wire Wire Line
 	1150 900  1250 900 
 Wire Wire Line
 	1150 800  1250 800 
 Wire Wire Line
-	2000 3900 1950 3900
+	1500 3900 2000 3900
 Wire Wire Line
-	2000 4100 1950 4100
+	1500 4100 2000 4100
 Wire Wire Line
 	2850 4000 2800 4000
 Wire Wire Line
@@ -979,8 +1006,6 @@ Wire Wire Line
 	1950 5950 2000 5950
 Wire Wire Line
 	1950 6500 2000 6500
-Wire Wire Line
-	1250 2000 1150 2000
 Wire Wire Line
 	1250 2100 1150 2100
 Wire Wire Line
@@ -1001,6 +1026,8 @@ Wire Wire Line
 	1250 2900 1150 2900
 Wire Wire Line
 	1250 3000 1150 3000
+Wire Wire Line
+	1250 3100 1150 3100
 Wire Wire Line
 	8500 3100 9050 3100
 Wire Wire Line
@@ -1043,21 +1070,13 @@ Text Label 4300 1900 0    60   ~ 0
 AVSS1A
 Text Label 4200 3500 2    60   ~ 0
 GND
-Text Label 4200 2100 2    60   ~ 0
-GND
-Text Label 4200 1900 2    60   ~ 0
-GND
-Text Label 10150 1900 0    60   ~ 0
-GND
-Text Label 10150 1800 0    60   ~ 0
-GND
 Text Label 4200 2000 2    60   ~ 0
 AVDD
 Text Label 10150 2100 0    60   ~ 0
 AVDD
 Text Label 10150 1700 0    60   ~ 0
 AVDD
-Text Label 2850 4000 0    60   ~ 0
+Text Label 3300 4000 0    60   ~ 0
 VREF
 Text Label 10150 3800 0    60   ~ 0
 VREF
@@ -1103,7 +1122,8 @@ AR Path="/58B4B6C8/58B4EEE3" Ref="P1"  Part="1"
 AR Path="/58B5BC1A/58B4EEE3" Ref="P2"  Part="1" 
 AR Path="/58B5D98C/58B4EEE3" Ref="P3"  Part="1" 
 AR Path="/58B5EE77/58B4EEE3" Ref="P4"  Part="1" 
-F 0 "P1" H 4600 6550 50  0000 C CNN
+AR Path="/58E92942/58B4EEE3" Ref="P2"  Part="1" 
+F 0 "P4" H 4600 6550 50  0000 C CNN
 F 1 "CONN_02X10" V 4600 6000 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Angled_2x10" H 4600 4800 50  0001 C CNN
 F 3 "" H 4600 4800 50  0000 C CNN
@@ -1144,8 +1164,6 @@ AIN6+
 Text Label 4300 6250 2    60   ~ 0
 AIN6-
 Wire Wire Line
-	4300 5650 4350 5650
-Wire Wire Line
 	4300 5750 4350 5750
 Wire Wire Line
 	4300 5850 4350 5850
@@ -1160,6 +1178,10 @@ Wire Wire Line
 Wire Wire Line
 	4300 6350 4350 6350
 Wire Wire Line
+	4300 5550 4350 5550
+Wire Wire Line
+	4900 5550 4850 5550
+Wire Wire Line
 	4900 6350 4850 6350
 Wire Wire Line
 	4900 6250 4850 6250
@@ -1173,44 +1195,42 @@ Wire Wire Line
 	4900 5850 4850 5850
 Wire Wire Line
 	4900 5750 4850 5750
-Wire Wire Line
-	4900 5650 4850 5650
-Text Label 1950 4650 2    60   ~ 0
-AIN1+
-Text Label 1950 4750 2    60   ~ 0
-AIN1-
-Text Label 2850 4750 0    60   ~ 0
-AIN0+
-Text Label 2850 4850 0    60   ~ 0
-AIN0-
-Text Label 1950 5200 2    60   ~ 0
-AIN3+
-Text Label 1950 5300 2    60   ~ 0
-AIN3-
 Text Label 2850 5300 0    60   ~ 0
-AIN2+
+AIN1+
 Text Label 2850 5400 0    60   ~ 0
-AIN2-
-Text Label 1950 5750 2    60   ~ 0
-AIN5+
-Text Label 1950 5850 2    60   ~ 0
-AIN5-
+AIN1-
+Text Label 1950 4650 2    60   ~ 0
+AIN0+
+Text Label 1950 4750 2    60   ~ 0
+AIN0-
 Text Label 2850 5850 0    60   ~ 0
-AIN4+
+AIN3+
 Text Label 2850 5950 0    60   ~ 0
-AIN4-
-Text Label 1950 6300 2    60   ~ 0
-AIN7+
-Text Label 1950 6400 2    60   ~ 0
-AIN7-
+AIN3-
+Text Label 1950 5200 2    60   ~ 0
+AIN2+
+Text Label 1950 5300 2    60   ~ 0
+AIN2-
 Text Label 2850 6400 0    60   ~ 0
-AIN6+
+AIN5+
 Text Label 2850 6500 0    60   ~ 0
+AIN5-
+Text Label 1950 5750 2    60   ~ 0
+AIN4+
+Text Label 1950 5850 2    60   ~ 0
+AIN4-
+Text Label 2850 6950 0    60   ~ 0
+AIN7+
+Text Label 2850 7050 0    60   ~ 0
+AIN7-
+Text Label 1950 6300 2    60   ~ 0
+AIN6+
+Text Label 1950 6400 2    60   ~ 0
 AIN6-
 Wire Wire Line
-	1950 4650 2000 4650
+	2000 6850 1950 6850
 Wire Wire Line
-	1950 4750 2000 4750
+	2000 6950 1950 6950
 Wire Wire Line
 	1950 5200 2000 5200
 Wire Wire Line
@@ -1224,37 +1244,37 @@ Wire Wire Line
 Wire Wire Line
 	1950 6400 2000 6400
 Wire Wire Line
-	2850 6500 2800 6500
+	2800 6500 2850 6500
 Wire Wire Line
-	2850 6400 2800 6400
+	2800 6400 2850 6400
 Wire Wire Line
-	2850 5950 2800 5950
+	2800 5950 2850 5950
 Wire Wire Line
-	2850 5850 2800 5850
+	2800 5850 2850 5850
 Wire Wire Line
-	2850 5400 2800 5400
+	2800 5400 2850 5400
 Wire Wire Line
-	2850 5300 2800 5300
+	2800 5300 2850 5300
 Wire Wire Line
-	2850 4850 2800 4850
+	1950 4750 2000 4750
 Wire Wire Line
-	2850 4750 2800 4750
+	1950 4650 2000 4650
 Text Label 7200 5100 0    60   ~ 0
 EPAD
 Wire Wire Line
 	7200 5100 7100 5100
-Text Label 10050 2450 2    60   ~ 0
+Text Label 10050 2500 2    60   ~ 0
 FORMAT1
-Text Label 10050 2350 2    60   ~ 0
+Text Label 10050 2400 2    60   ~ 0
 FORMAT0
-Text Label 10050 2250 2    60   ~ 0
+Text Label 10050 2300 2    60   ~ 0
 CLK_SEL
 Wire Wire Line
-	10050 2250 10150 2250
+	10050 2300 10150 2300
 Wire Wire Line
-	10050 2350 10150 2350
+	10050 2400 10150 2400
 Wire Wire Line
-	10050 2450 10150 2450
+	10050 2500 10150 2500
 Wire Wire Line
 	8050 2600 8100 2600
 Wire Wire Line
@@ -1296,48 +1316,24 @@ Wire Wire Line
 	8200 2050 8300 2050
 Text Label 4300 4500 0    60   ~ 0
 XTAL1
-Text Label 4200 4500 2    60   ~ 0
-GND
 Wire Wire Line
 	4300 4500 4200 4500
-Text Label 10150 2250 0    60   ~ 0
-GND
-Text Label 10150 2350 0    60   ~ 0
+Text Label 10150 2400 0    60   ~ 0
 IOVDD
-Text Label 10150 2450 0    60   ~ 0
+Text Label 10150 2500 0    60   ~ 0
 IOVDD
 Text Label 4300 3100 0    60   ~ 0
 CONVST_SAR
-Text Label 4200 3100 2    60   ~ 0
-GND
 Wire Wire Line
 	4200 3100 4300 3100
 Wire Wire Line
 	4300 6450 4350 6450
 Wire Wire Line
 	4900 6450 4850 6450
-Wire Wire Line
-	4850 5550 4850 5400
-Wire Wire Line
-	4850 5400 4350 5400
-Wire Wire Line
-	4350 5400 4350 5550
 Text Label 10150 3600 0    60   ~ 0
 AVDD
-Text Label 10150 2600 0    60   ~ 0
-GND
 Text Label 10150 2700 0    60   ~ 0
 AVDD
-Text Label 10150 2900 0    60   ~ 0
-GND
-Text Label 10150 3500 0    60   ~ 0
-GND
-Text Label 10150 3700 0    60   ~ 0
-GND
-Text Label 7100 5100 2    60   ~ 0
-GND
-Text Label 4300 6450 2    60   ~ 0
-GND
 Text Label 1950 6500 2    60   ~ 0
 GND
 Text Label 1950 5950 2    60   ~ 0
@@ -1346,8 +1342,171 @@ Text Label 1950 5400 2    60   ~ 0
 GND
 Text Label 1950 4850 2    60   ~ 0
 GND
-Text Label 1950 4100 2    60   ~ 0
+Text Label 1500 4100 2    60   ~ 0
 GND
 Text Label 4900 6450 0    60   ~ 0
 AVDD
+$Comp
+L C_Small C145
+U 1 1 58E71F17
+P 1850 4000
+AR Path="/58B5EE77/58E71F17" Ref="C145"  Part="1" 
+AR Path="/58B5D98C/58E71F17" Ref="C133"  Part="1" 
+AR Path="/58B5BC1A/58E71F17" Ref="C137"  Part="1" 
+AR Path="/58B4B6C8/58E71F17" Ref="C141"  Part="1" 
+AR Path="/58E92942/58E71F17" Ref="C137"  Part="1" 
+F 0 "C145" H 1860 4070 50  0000 L CNN
+F 1 "100n" H 1860 3920 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 1850 4000 50  0001 C CNN
+F 3 "" H 1850 4000 50  0000 C CNN
+F 4 "MC0402B104K160CT" H 1850 4000 60  0001 C CNN "manf#"
+	1    1850 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C134
+U 1 1 58E7219F
+P 2950 4000
+AR Path="/58B5D98C/58E7219F" Ref="C134"  Part="1" 
+AR Path="/58B5BC1A/58E7219F" Ref="C138"  Part="1" 
+AR Path="/58B4B6C8/58E7219F" Ref="C142"  Part="1" 
+AR Path="/58B5EE77/58E7219F" Ref="C146"  Part="1" 
+AR Path="/58E92942/58E7219F" Ref="C138"  Part="1" 
+F 0 "C146" H 2960 4070 50  0000 L CNN
+F 1 "100n" H 2960 3920 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 2950 4000 50  0001 C CNN
+F 3 "" H 2950 4000 50  0000 C CNN
+F 4 "MC0402B104K160CT" H 2950 4000 60  0001 C CNN "manf#"
+	1    2950 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C132
+U 1 1 58E72DF6
+P 1650 4000
+AR Path="/58B5D98C/58E72DF6" Ref="C132"  Part="1" 
+AR Path="/58B5BC1A/58E72DF6" Ref="C136"  Part="1" 
+AR Path="/58B4B6C8/58E72DF6" Ref="C140"  Part="1" 
+AR Path="/58B5EE77/58E72DF6" Ref="C144"  Part="1" 
+AR Path="/58E92942/58E72DF6" Ref="C136"  Part="1" 
+F 0 "C144" H 1660 4070 50  0000 L CNN
+F 1 "10u" H 1660 3920 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1650 4000 50  0001 C CNN
+F 3 "" H 1650 4000 50  0000 C CNN
+F 4 "GRM188R61A106KE69D" H 1650 4000 60  0001 C CNN "manf#"
+	1    1650 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C135
+U 1 1 58E72F8D
+P 3150 4000
+AR Path="/58B5D98C/58E72F8D" Ref="C135"  Part="1" 
+AR Path="/58B5BC1A/58E72F8D" Ref="C139"  Part="1" 
+AR Path="/58B4B6C8/58E72F8D" Ref="C143"  Part="1" 
+AR Path="/58B5EE77/58E72F8D" Ref="C147"  Part="1" 
+AR Path="/58E92942/58E72F8D" Ref="C139"  Part="1" 
+F 0 "C147" H 3160 4070 50  0000 L CNN
+F 1 "22u" H 3160 3920 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 3150 4000 50  0001 C CNN
+F 3 "" H 3150 4000 50  0000 C CNN
+F 4 "GRM21BR60J226ME39L" H 3150 4000 60  0001 C CNN "manf#"
+	1    3150 4000
+	-1   0    0    1   
+$EndComp
+Connection ~ 1850 3900
+Connection ~ 1650 3900
+Connection ~ 1650 4100
+Connection ~ 1850 4100
+Wire Wire Line
+	2850 4000 2850 3900
+Wire Wire Line
+	2850 3900 3250 3900
+Connection ~ 2950 3900
+Wire Wire Line
+	3250 3900 3250 4000
+Wire Wire Line
+	3250 4000 3300 4000
+Connection ~ 3150 3900
+Text Label 3300 4100 0    60   ~ 0
+GND
+Wire Wire Line
+	2950 4100 3300 4100
+Connection ~ 3150 4100
+Text Label 4200 1900 2    60   ~ 0
+AVSS
+Text Label 10150 3500 0    60   ~ 0
+AVSS
+Text Label 10150 2900 0    60   ~ 0
+AVSS
+Text Label 10150 2600 0    60   ~ 0
+AVSS
+Text Label 10150 1900 0    60   ~ 0
+AVSS
+Text Label 10150 1800 0    60   ~ 0
+AVSS
+Text Label 4300 6450 2    60   ~ 0
+AVSS
+Text HLabel 1150 1100 0    60   Input ~ 0
+AVSS
+Text Label 1250 1100 0    60   ~ 0
+AVSS
+Wire Wire Line
+	1150 1100 1250 1100
+Text Label 4200 2100 2    60   ~ 0
+AVSS
+Text Label 10150 3700 0    60   ~ 0
+AVSS
+Text Label 10150 2300 0    60   ~ 0
+DGND
+Text Label 4200 3100 2    60   ~ 0
+DGND
+Text Label 4200 4500 2    60   ~ 0
+DGND
+Text Label 7100 5100 2    60   ~ 0
+AVSS
+Wire Wire Line
+	4850 5650 4900 5650
+Wire Wire Line
+	4300 5650 4350 5650
+$Comp
+L TPD4E1B06 U4
+U 1 1 58ED7D80
+P 2400 6950
+AR Path="/58B5BC1A/58ED7D80" Ref="U4"  Part="1" 
+AR Path="/58B5EE77/58ED7D80" Ref="U26"  Part="1" 
+AR Path="/58B5D98C/58ED7D80" Ref="U33"  Part="1" 
+AR Path="/58B4B6C8/58ED7D80" Ref="U38"  Part="1" 
+F 0 "U26" H 2400 6750 60  0000 C CNN
+F 1 "TPD4E1B06" H 2400 7150 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SC-70-6" H 2400 6950 60  0001 C CNN
+F 3 "" H 2400 6950 60  0001 C CNN
+F 4 "TPD4E1B06DCKR" H 2400 6950 60  0001 C CNN "manf#"
+	1    2400 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 7050 2000 7050
+Wire Wire Line
+	2850 4850 2800 4850
+Wire Wire Line
+	2800 6950 2850 6950
+Wire Wire Line
+	2850 7050 2800 7050
+Wire Wire Line
+	2850 4750 2800 4750
+Text Label 1950 7050 2    60   ~ 0
+GND
+Text Label 1950 6950 2    60   ~ 0
+AVSS
+Text Label 1950 6850 2    60   ~ 0
+AVDD
+Wire Wire Line
+	2850 4750 2850 4850
+Text GLabel 2850 4850 2    60   Input ~ 0
+REF
+Text GLabel 4900 5550 2    60   Input ~ 0
+REF
+Text GLabel 4300 5550 0    60   Input ~ 0
+REF
 $EndSCHEMATC
