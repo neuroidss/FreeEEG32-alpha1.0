@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/dmitryneuro/git.neuroidss.local/FreeEEG32/KiCad/FreeEEG32.sch)
-    (date "Mon 03 Apr 2017 22:32:12 MSK")
+    (date "Tue 04 Apr 2017 22:58:08 MSK")
     (tool "Eeschema 4.0.6-e0-6349~53~ubuntu14.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -476,7 +476,7 @@
       (value da2303)
       (footprint "SMT_Power_Transformer:SMT Power Transformer")
       (fields
-        (field (name manf#) DA2303))
+        (field (name manf#) DA2303-ALD))
       (libsource (lib da2303) (part da2303))
       (sheetpath (names /ISO_WIFI_USB/) (tstamps /58CE50D0/))
       (tstamp 58CE6FDD))

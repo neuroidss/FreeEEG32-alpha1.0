@@ -238,7 +238,7 @@ F 0 "T1" H 8350 5500 50  0000 C CNN
 F 1 "da2303" H 8350 4500 50  0000 C CNN
 F 2 "SMT_Power_Transformer:SMT Power Transformer" H 8350 5000 50  0001 C CNN
 F 3 "" H 8350 5000 50  0000 C CNN
-F 4 "DA2303" H 8350 5000 60  0001 C CNN "manf#"
+F 4 "DA2303-ALD" H 8350 5000 60  0001 C CNN "manf#"
 	1    8350 5000
 	1    0    0    -1  
 $EndComp
