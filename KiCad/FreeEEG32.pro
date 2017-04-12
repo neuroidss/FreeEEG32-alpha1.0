@@ -1,4 +1,4 @@
-update=Tue 11 Apr 2017 12:29:16 MSK
+update=Wed 12 Apr 2017 18:02:46 MSK
 version=1
 last_client=kicad
 [pcbnew]
@@ -107,3 +107,4 @@ LibName65=MPU-6500
 LibName66=CP2102N-A01-GQFN24
 LibName67=lib/LSM6DS3
 LibName68=lib/transformer_sp_ss
+LibName69=lib/sn6505b
