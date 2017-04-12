@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:FreeEEG32-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -61,6 +62,8 @@ LIBS:tlv73333pdbvt
 LIBS:adum1402brwz
 LIBS:MPU-6500
 LIBS:CP2102N-A01-GQFN24
+LIBS:LSM6DS3
+LIBS:transformer_sp_ss
 LIBS:FreeEEG32-cache
 EELAYER 25 0
 EELAYER END
@@ -703,8 +706,6 @@ Text Label 8100 1600 0    60   ~ 0
 AUXAIN+
 Text Label 8100 1500 0    60   ~ 0
 AUXAIN-
-Text Label 1500 3900 2    60   ~ 0
-V+
 Text HLabel 1150 2100 0    60   Input ~ 0
 SYNC_OUT
 Text Label 1250 2100 0    60   ~ 0
@@ -1058,7 +1059,7 @@ Text Label 10050 1800 2    60   ~ 0
 AVSS4
 Text Label 10050 1700 2    60   ~ 0
 AVDD4
-Text Label 4300 3500 0    60   ~ 0
+Text Label 1250 3200 0    60   ~ 0
 DGND
 Text Label 4300 2200 0    60   ~ 0
 REF1+
@@ -1068,8 +1069,6 @@ Text Label 4300 2000 0    60   ~ 0
 AVDD1A
 Text Label 4300 1900 0    60   ~ 0
 AVSS1A
-Text Label 4200 3500 2    60   ~ 0
-GND
 Text Label 4200 2000 2    60   ~ 0
 AVDD
 Text Label 10150 2100 0    60   ~ 0
@@ -1082,8 +1081,6 @@ Text Label 10150 3800 0    60   ~ 0
 VREF
 Text Label 4200 2200 2    60   ~ 0
 VREF
-Wire Wire Line
-	4300 3500 4200 3500
 Wire Wire Line
 	4300 2200 4200 2200
 Wire Wire Line
@@ -1127,7 +1124,7 @@ F 0 "P3" H 4600 6550 50  0000 C CNN
 F 1 "CONN_02X10" V 4600 6000 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Angled_2x10" H 4600 4800 50  0001 C CNN
 F 3 "" H 4600 4800 50  0000 C CNN
-F 4 "PLD-10R" H 4600 6000 60  0000 C CNN "manf#"
+F 4 "PLD-10R" H 4600 6000 60  0001 C CNN "manf#"
 	1    4600 6000
 	1    0    0    -1  
 $EndComp
@@ -1178,9 +1175,9 @@ Wire Wire Line
 Wire Wire Line
 	4300 6350 4350 6350
 Wire Wire Line
-	4300 5550 4350 5550
+	4000 5550 4350 5550
 Wire Wire Line
-	4900 5550 4850 5550
+	5200 5550 4850 5550
 Wire Wire Line
 	4900 6350 4850 6350
 Wire Wire Line
@@ -1342,8 +1339,6 @@ Text Label 1950 5400 2    60   ~ 0
 GND
 Text Label 1950 4850 2    60   ~ 0
 GND
-Text Label 1500 4100 2    60   ~ 0
-GND
 Text Label 4900 6450 0    60   ~ 0
 AVDD
 $Comp
@@ -1428,8 +1423,6 @@ Wire Wire Line
 Wire Wire Line
 	3250 4000 3300 4000
 Connection ~ 3150 3900
-Text Label 3300 4100 0    60   ~ 0
-GND
 Wire Wire Line
 	2950 4100 3300 4100
 Connection ~ 3150 4100
@@ -1501,12 +1494,22 @@ Text Label 1950 6950 2    60   ~ 0
 AVSS
 Text Label 1950 6850 2    60   ~ 0
 AVDD
-Wire Wire Line
-	2850 4750 2850 4850
 Text GLabel 2850 4850 2    60   Input ~ 0
-REF
-Text GLabel 4900 5550 2    60   Input ~ 0
-REF
-Text GLabel 4300 5550 0    60   Input ~ 0
-REF
+AINREF
+Text GLabel 4000 5550 0    60   Input ~ 0
+AINREF
+Text Label 3300 4100 0    60   ~ 0
+AVSS
+Text Label 1500 4100 2    60   ~ 0
+AVSS
+Text HLabel 1150 3200 0    60   Input ~ 0
+DGND
+Wire Wire Line
+	1150 3200 1250 3200
+Text Label 5200 5550 0    60   ~ 0
+VCM
+Text Label 2850 4750 0    60   ~ 0
+VCM
+Text Label 1500 3900 2    60   ~ 0
+AVDD
 $EndSCHEMATC
