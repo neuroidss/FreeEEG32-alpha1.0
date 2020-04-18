@@ -1,7 +1,7 @@
-# FreeEEG32 + alpha1.5
+# new FreeEEG32 + alpha1.5
 New version https://github.com/neuroidss/FreeEEG32-alpha1.5
 
-# FreeEEG32
+# old FreeEEG32
 ![](https://raw.githubusercontent.com/neuroidss/FreeEEG32/master/KiCad/out/pcb/3d/FreeEEG32_alpha_top.png)
 ![](https://raw.githubusercontent.com/neuroidss/FreeEEG32/master/KiCad/out/pcb/3d/FreeEEG32_alpha_bottom.png)
 ![](https://raw.githubusercontent.com/neuroidss/FreeEEG32/master/KiCad/out/sch/png/ADC-ADC1.png)
