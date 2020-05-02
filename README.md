@@ -1,7 +1,7 @@
-# new FreeEEG32 + alpha1.5
+# use new version: FreeEEG32 + alpha1.5
 New version https://github.com/neuroidss/FreeEEG32-alpha1.5
 
-# old FreeEEG32 alpha1.0
+# old FreeEEG32 alpha1.0 -- alpha test failed, don't work without wired bug fixes
 ![](https://raw.githubusercontent.com/neuroidss/FreeEEG32/master/KiCad/out/pcb/3d/FreeEEG32_alpha_top.png)
 ![](https://raw.githubusercontent.com/neuroidss/FreeEEG32/master/KiCad/out/pcb/3d/FreeEEG32_alpha_bottom.png)
 ![](https://raw.githubusercontent.com/neuroidss/FreeEEG32/master/KiCad/out/sch/png/ADC-ADC1.png)
